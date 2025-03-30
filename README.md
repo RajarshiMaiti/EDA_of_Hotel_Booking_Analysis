@@ -1,7 +1,7 @@
 
 **Project Overview:-**
 
-**Exploratory Data Analysis (EDA) of Spotify Dataset**
+**Exploratory Data Analysis (EDA) of Spotify Dataset:-**
 
 
 **1. Introduction**
@@ -72,7 +72,7 @@ Some artists appear frequently in top tracks, indicating consistency in populari
 6. Conclusion & Future Scope
 
 
-**Conclusion:**
+**Conclusion:-**
 
 This project provides a deep understanding of key attributes influencing song success on Spotify. The findings can be beneficial for artists, producers, and marketing teams to optimize track characteristics for better engagement.
 
