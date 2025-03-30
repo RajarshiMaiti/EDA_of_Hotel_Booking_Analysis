@@ -1,52 +1,80 @@
-# EDA_of_Hotel_Booking_Analysis
 
-# Loading the Dataset
+**Project Overview:-**
 
-# Dataset First View.
+**Exploratory Data Analysis (EDA) of Spotify Dataset**
 
-# Missing Values/ Null Values Count.
 
-# Visualizing the missing values using Seaborn Heatmap.
-# Generating Insights about the Dataset.
+**1. Introduction**
 
-# Check Unique Values for each Variable
+Spotify, one of the leading music streaming platforms, provides extensive data on songs, artists, and user interactions. This project aims to perform Exploratory Data Analysis (EDA) on a Spotify dataset to uncover insights into music trends, song popularity, and key audio features that define successful tracks.
 
-# Data Wrangling
 
-# Data Vizualization, Storytelling & Experimenting with charts : Understand the relationships between variables.
+**2. Dataset Overview**
 
-# Creating a Pie chart also for the above problem statement as Donut chart is not exported to github
+The dataset used in this project is a CSV file containing various attributes related to Spotify songs. Some of the key columns include:
 
-# What is perecentage of hotel booking cancellation?
+Track Name & Artist: Identifies the song and its performer.
 
-# Which year has the most bookings ?
+Danceability: Measures how suitable a track is for dancing.
 
-# Which month has the most bookings in each hotel type?
+Energy: Represents the intensity and activity of a song.
 
-# Which room type is most preffered by guests?
+Loudness: The overall loudness level in decibels.
 
-# Which room type is most assigned?
+Speechiness: The presence of spoken words in the track.
 
-# Top 5 agents in terms of most bookings?
+Instrumentalness: Indicates if the track is mostly instrumental.
 
-# What is the percentage of repeated guests?
+Valence: The positivity of a song’s musical elements.
 
-# Which customer type has the most booking?
+Tempo: The speed of the track measured in beats per minute (BPM).
 
-# Which Market Segment has the most booking?
+Duration: The length of the song in milliseconds.
 
-# Which deposite type is most preffered?
+3. Data Preprocessing & Cleaning
 
-# How long people stay in the hotel?
+To ensure high-quality analysis, the dataset underwent multiple preprocessing steps:
 
-# Which hotel makes most revenue?
+Missing Values Handling: Checked and addressed any null values.
 
-# Which hotel has the longer waiting time?
+Feature Engineering: Removed unnecessary columns such as 'Unnamed: 0'.
 
-# Hotel with most repeated guests.?
+Data Type Conversion: Converted relevant columns to appropriate data types.
 
-# What is the adr across different months?
+Duplicate Removal: Ensured data integrity by eliminating duplicate records.
 
-# Which distribution channel has highest adr?
+4. Exploratory Data Analysis (EDA)
 
-# Correlation Heatmap visualization code.
+EDA was conducted to uncover patterns and trends in the dataset using Python libraries such as Pandas, Seaborn, and Plotly. Some key analyses include:
+
+Distribution of Audio Features: Visualized danceability, energy, and valence to understand common song characteristics.
+
+Top Artists & Songs: Identified the most popular artists and their frequently occurring tracks.
+
+Correlation Analysis: Examined relationships between features like tempo, loudness, and energy.
+
+Genre & Popularity Trends: Investigated how different genres perform based on their audio features.
+
+Duration & Tempo Insights: Analyzed if shorter songs or specific tempo ranges correlate with popularity.
+
+5. Insights & Key Findings
+
+High-energy and danceable songs tend to be more popular.
+
+Most popular tracks fall within a moderate tempo range (100-130 BPM).
+
+Instrumental tracks are less frequent among top-performing songs.
+
+Loudness and energy exhibit a strong positive correlation.
+
+Some artists appear frequently in top tracks, indicating consistency in popularity.
+
+6. Conclusion & Future Scope
+
+
+**Conclusion:**
+
+This project provides a deep understanding of key attributes influencing song success on Spotify. The findings can be beneficial for artists, producers, and marketing teams to optimize track characteristics for better engagement.
+
+
+
